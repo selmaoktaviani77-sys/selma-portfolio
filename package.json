@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-selma",
+  "version": "1.0.0",
+  "description": "Portfolio of Selma Oktaviani",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo \"No build step required for plain HTML/CSS/JS project\"",
+    "start": "echo \"Serve statically. Try npx serve\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selmaoktaviani77-sys/portfolio"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Selma Oktaviani",
+  "license": "MIT"
+}

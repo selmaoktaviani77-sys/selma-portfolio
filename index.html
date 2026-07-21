@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Selma Oktaviani — UI/UX, quality assurance, and systems optimization." />
+    <meta name="theme-color" content="#0e2a52" />
+    <title>Selma Oktaviani — Portfolio</title>
+    <!-- SEO and Open Graph Meta Tags -->
+    <link rel="canonical" href="https://selmaoktaviani.vercel.app/" />
+    <meta property="og:title" content="Selma Oktaviani — Portfolio" />
+    <meta property="og:description" content="Portfolio of Selma Oktaviani — UI/UX, quality assurance, and systems optimization." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://selmaoktaviani.vercel.app/" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .organization-subsection{padding-top:28px}.organization-title{color:var(--amber);font:500 11px var(--mono);letter-spacing:.08em;margin:0 0 14px;text-transform:uppercase}.organization-cards{display:grid;gap:10px;grid-template-columns:repeat(5,minmax(0,1fr))}.organization-card{border:1px solid rgba(199,214,236,.25);padding:16px}.organization-card h3{color:#fff;font:600 16px/1.18 var(--display);letter-spacing:-.03em;margin:0 0 7px}.organization-card p{color:#c7d6ec;font-size:12px;line-height:1.45;margin:0}.project-resources{border-top:1px solid var(--line);margin-top:30px;padding-top:22px}.project-resources>h3{color:var(--navy);font:500 11px var(--mono);letter-spacing:.05em;margin:0 0 12px;text-transform:uppercase}.project-resources>div{display:grid;gap:10px;grid-template-columns:repeat(3,minmax(0,1fr))}.project-resources a{border:1px solid var(--sky);display:block;min-height:108px;padding:14px;position:relative;transition:.2s}.project-resources a:hover{background:var(--sky-soft);border-color:var(--blue);transform:translateY(-2px)}.project-resources strong{color:var(--navy);display:block;font:500 12px var(--mono);margin-bottom:7px}.project-resources span{color:var(--slate);display:block;font-size:12px;line-height:1.45;padding-right:13px}.project-resources b{bottom:11px;color:var(--amber);position:absolute;right:12px}@media (max-width:580px){.organization-cards,.project-resources>div{grid-template-columns:1fr}.organization-card{padding:14px}}
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+    <header class="site-header" id="top">
+      <a class="brand" href="#home" aria-label="Selma Oktaviani — home"><span>SO</span><i>Portfolio</i></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      </nav>
+      <a class="header-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      <button class="menu-button" id="menu-button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    </header>
+    <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </nav>
+    </aside>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Available for meaningful opportunities</p>
+          <h1>System thinker.<br /><em>Experience</em> designer.</h1>
+          <p class="hero-role">I'm <strong id="role-cycle">UI/UX Enthusiast</strong><span class="cursor" aria-hidden="true">|</span></p>
+          <p class="lede">Bridging system optimization with user-centered design. I create clear, thoughtful digital experiences grounded in analytical thinking.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="YOUR_DEPLOYED_PORTFOLIO_URL" target="_blank" rel="noreferrer">View portfolio <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="https://drive.google.com/file/d/1SQgb3lm-f3gTLnw7wp6lL7wHvlMEdLgk/view?usp=sharing" target="_blank" rel="noreferrer">View CV <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta"><span>Central Java, Indonesia</span><span>•</span><span>Industrial Engineering</span></div>
+        </div>
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <!-- TODO: Replace the placeholder profile.jpg in public/images/ with your actual profile picture -->
+            <img src="public/images/profile.jpg" alt="Selma Oktaviani" onerror="this.style.display='none';this.parentElement.classList.add('image-fallback')" />
+            <div class="portrait-fallback" aria-hidden="true">SO</div>
+          </div>
+          <div class="portrait-label"><span>01</span><p>Selma<br />Oktaviani</p></div>
+          <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        </div>
+        <a class="scroll-cue" href="#about"><span>Scroll to discover</span><b aria-hidden="true">↓</b></a>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading"><p class="eyebrow"><span></span> 01 / About</p><h2>Engineering perspective.<br /><em>Human-centered</em> approach.</h2></div>
+        <div class="about-layout">
+          <div class="about-copy">
+            <p class="intro">I am an Industrial Engineering undergraduate at Universitas Jenderal Soedirman, building a focused path into technology.</p>
+            <p>I bring structured problem-solving, quality awareness, and system optimization to work across UI/UX design, IT quality assurance, and software product development. My work combines curiosity with practical, user-first thinking.</p>
+            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="education-card">
+            <span class="card-index">EDU / 01</span><div class="education-icon" aria-hidden="true">✦</div>
+            <p class="education-label">Education</p><h3>Universitas Jenderal Soedirman</h3>
+            <p>Bachelor of Industrial Engineering</p><div class="education-bottom"><span>Jul 2024 — Jul 2028</span><strong>GPA 3.82</strong></div>
+          </div>
+        </div>
+        <div class="stats" aria-label="Highlights">
+          <article><strong data-count="10" data-suffix="+">0</strong><span>AI Contents Created</span></article>
+          <article><strong data-count="6.8" data-decimals="1" data-suffix="K">0</strong><span>Highest-performing content reached</span></article>
+          <article><strong data-count="3.88" data-decimals="2">0</strong><span>Academic GPA</span></article>
+          <article><strong data-count="5" data-suffix="+">0</strong><span>Professional Working Experiences</span></article>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <div class="section-heading split-heading"><div><p class="eyebrow light"><span></span> 02 / Experience</p><h2>Where I have<br /><em>made an impact.</em></h2></div><p>Selected roles across campus, technology advocacy, and team leadership.</p></div>
+        <div class="experience-tabs" role="tablist" aria-label="Experience type"><button class="tab active" data-tab="work" role="tab" aria-selected="true">Work experience</button><button class="tab" data-tab="org" role="tab" aria-selected="false">Organizational experience</button></div>
+        <div id="experience-list" class="experience-list"></div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-heading"><p class="eyebrow"><span></span> 03 / Capabilities</p><h2>Tools for solving<br /><em>real problems.</em></h2></div>
+        <div id="skills-grid" class="skills-grid"></div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-heading split-heading"><div><p class="eyebrow"><span></span> 04 / Selected projects</p><h2>Ideas shaped into<br /><em>useful experiences.</em></h2></div><p>From research and systems to interface design and data analysis.</p></div>
+        <div class="project-controls"><div id="project-filters" class="filters" aria-label="Project filters"></div><span id="project-count" class="project-count"></span></div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-noise" aria-hidden="true"></div>
+        <p class="eyebrow light"><span></span> 05 / Contact</p>
+        <h2>Let's build something<br /><em>thoughtful together.</em></h2>
+        <p>Have an opportunity, a project, or simply want to connect? I would love to hear from you.</p>
+        <div class="contact-actions"><a class="button button-amber" href="mailto:selma.oktaviani@mhs.unsoed.ac.id">Send an email <span aria-hidden="true">↗</span></a><a class="button button-outline-light" href="https://wa.me/6288806844489?text=Hi%20Selma,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a><button class="button button-outline-light" id="copy-email">Copy email <span id="copy-icon" aria-hidden="true">⧉</span></button></div>
+        <div class="contact-details"><a href="mailto:selma.oktaviani@mhs.unsoed.ac.id">selma.oktaviani@mhs.unsoed.ac.id</a><span>Central Java, Indonesia</span></div>
+      </section>
+    </main>
+    <footer><a class="brand footer-brand" href="#home"><span>SO</span><i>Portfolio</i></a><p>© <span id="year"></span> Selma Oktaviani. Designed with intention.</p><div><a href="https://www.linkedin.com/in/selma-oktaviani-184a63224" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/selmaoktaviani77-sys" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.instagram.com/sl.move?igsh=MTV2ZHlsbTdtY3Jv" target="_blank" rel="noreferrer">Instagram</a></div></footer>
+    <button class="to-top" id="to-top" aria-label="Back to top">↑</button>
+    <dialog id="project-dialog"><button class="modal-close" aria-label="Close project details">×</button><div id="project-dialog-content"></div></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
