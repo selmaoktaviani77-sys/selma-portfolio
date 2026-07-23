@@ -41,44 +41,37 @@ const projectThumbnail = (title, accent = '#2E5AAC') => {
 const projects = [
   {
     id: 1, title: 'Interactive Web Portfolio Development', category: 'Software Engineering & UI/UX', group: 'Design', year: '2026', role: 'UI/UX DESIGNER',
-    // TODO: ganti dengan screenshot asli project ini
-    image: projectThumbnail('Interactive Web Portfolio Development'),
+    image: 'public/images/image.png',
     description: 'Designed a responsive, modern portfolio experience with AI assistance, translating my career transition into a clear and engaging digital narrative.', problem: 'A standard PDF CV could not fully communicate my transition from Industrial Engineering into UI/UX, QA, and software-oriented roles.', solution: 'Applied user-centered content hierarchy, intentional whitespace, readable typography, and AI-assisted development to create a polished single-page portfolio.', results: 'Launched a professional digital presence that demonstrates my UI/UX thinking, product communication, and ability to use emerging tools responsibly.', technologies: ['UI/UX Design', 'Responsive Design', 'AI-Assisted Development', 'Product Thinking'], link: 'https://selma-portfolio-nu.vercel.app/'
   },
   {
     id: 2, title: 'Google Student Ambassador AI Initiative', category: 'Digital Product Advocacy', group: 'Advocacy', year: '2026', role: 'Google Student Ambassador',
-    // TODO: ganti dengan screenshot asli project ini
-    image: projectThumbnail('Google Student Ambassador AI Initiative', '#2E5AAC'),
+    image: 'public/images/1784626850602.jpg',
     description: 'A digital campaign and community initiative promoting Google AI technologies and practical digital literacy for university students.', problem: 'University students needed more practical awareness of responsible AI use and the capabilities of Google Gemini.', solution: 'Created tailored educational content and initiated the #TeamGoogle campus community through discussions and sharing sessions.', results: 'Created 10+ AI-related content pieces; the highest-performing content reached 6.8K views and helped grow interest in Google AI tools on campus.', technologies: ['Google Gemini', 'User Adoption', 'Digital Literacy', 'Content Management'], link: 'https://www.instagram.com/sl.move?igsh=MTV2ZHlsbTdtY3Jv'
   },
   {
     id: 3, title: 'System Optimization Practicum Models', category: 'System Analysis & QA', group: 'Analysis', year: '2026', role: 'Teaching Assistant',
-    // TODO: ganti dengan screenshot asli project ini
-    image: projectThumbnail('System Optimization Practicum Models', '#E8963A'),
+    image: 'public/images/pemrog.jpg',
     description: 'Academic projects and laboratory assistance focused on modelling, simulating, and optimizing complex supply-chain and production systems.', problem: 'Operational processes can suffer from bottlenecks, inefficient allocation, and inconsistent evaluation methods.', solution: 'Used analytical tools to test scenarios, assess system performance, and propose optimized mathematical models.', results: 'Strengthened structured problem-solving, algorithmic thinking, and quality-minded system testing capabilities.', technologies: ['System Analysis', 'Quality Assurance', 'Data Analysis', 'Optimization Algorithms'], link: 'https://drive.google.com/drive/folders/1QNYB_1E4EuJOkm-rEFfdpP4xRIcXu2Wc?usp=sharing'
   },
   {
     id: 4, title: 'SIMBA+ Equipment Rental Platform', category: 'UI/UX Design & User Research', group: 'Design', year: '2025', role: 'UI/UX Designer',
-    // TODO: ganti dengan screenshot asli project ini
-    image: projectThumbnail('SIMBA+ Equipment Rental Platform', '#2563EB'),
+    image: 'public/images/WhatsApp Image 2026-07-23 at 06.52.47.jpeg',
     description: 'Collaborated in a team to design SIMBA+, an application connecting equipment owners and renters for a safe, transparent, and efficient digital economic ecosystem.', problem: 'Manual equipment rental is often complicated and lacks transparent information on item condition and pricing, weakening trust between owners and renters.', solution: 'Designed the end-to-end UI/UX flow, from wireframes to an interactive Figma prototype. Conducted structured UAT with nine respondents for navigation, search, and transaction flows.', results: 'Achieved 100% satisfaction on product transparency; 89% rated navigation highly intuitive and 89% found the MVP highly viable. Insights informed visual and role-clarity iterations.', technologies: ['Figma', 'UI/UX Design', 'User Acceptance Testing', 'Prototyping', 'Data Analysis'], actions: [{ label: 'Open Figma', link: 'https://www.figma.com/proto/7LSWQo1AbVTN8Z5LMVibnN/SIMBA-?node-id=0-1&t=pvCCVqX4x7rklRiB-1' }, { label: 'Project Report', link: 'https://drive.google.com/file/d/1OewDNWkZeYEOWTxmO2jZvwMythZdDKvf/view?usp=sharing' }]
   },
   {
     id: 5, title: 'ERP System Interface Design', category: 'UI/UX Design & Prototyping', group: 'Design', year: '2024', role: 'UI/UX Designer',
-    // TODO: ganti dengan screenshot asli project ini
-    image: projectThumbnail('ERP System Interface Design', '#0EA5E9'),
+    image: 'public/images/WhatsApp Image 2026-07-22 at 17.50.30.jpeg',
     description: 'Designed the interface for a comprehensive ERP system in a collaborative team project, structuring business data into a digestible visual format.', problem: 'ERP systems handle high volumes of data and complex processes; cluttered dashboards and confusing workflows can reduce employee productivity.', solution: 'Mapped clear user flows and built high-fidelity interactive Figma prototypes with clean module navigation and accessible data visualization.', results: 'Delivered a cohesive, functional UI prototype that integrates complex business modules and is ready for development handoff.', technologies: ['Figma', 'UI/UX Design', 'Wireframing', 'Prototyping', 'System Analysis'], actions: [{ label: 'Open Figma', link: 'https://www.figma.com/design/QIVlyffEj3EkULkrVeycgk/Untitled?node-id=0-1&p=f&t=b6kWpjAW2j2GG7Fd-0' }, { label: 'Blueprint', link: 'https://drive.google.com/file/d/1qrjoC4geNpUAPu42rwmX1lb6jOluGIEA/view?usp=sharing' }]
   },
   {
     id: 6, title: 'Exploratory Data Analysis', category: 'Data Analysis', group: 'Analysis', year: 'Selected work', role: 'Data Analyst',
-    // TODO: ganti dengan screenshot asli project ini
-    image: projectThumbnail('Exploratory Data Analysis', '#2E5AAC'),
+    image: 'public/images/Dashboard preview.jpg',
     description: 'Performed end-to-end data preprocessing and exploratory data analysis (EDA) using Python in Google Colab to extract actionable business insights from raw datasets.', problem: 'Raw datasets are often unstructured and contain missing or inconsistent values, risking inaccurate conclusions and flawed strategies.', solution: 'Used Google Colab for systematic data wrangling, missing-value handling, anomaly cleaning, and statistical analysis to surface trends.', results: 'Transformed a messy dataset into a reliable source of truth and derived objective, data-driven recommendations for decision-making.', technologies: ['Python', 'Google Colab', 'Data Wrangling', 'EDA', 'Statistical Analysis'], resources: [{ title: 'SPSS & Minitab', description: 'Statistical analysis resource and documentation.', link: 'https://docs.google.com/document/d/1-fdH6NSdmYCJjOUY6Ufp6JJ2p6UO8yfs/edit?usp=sharing&ouid=104440254920293330833&rtpof=true&sd=true' }, { title: 'Excel Dashboard Project #1', description: 'Interactive dashboard built in Microsoft Excel for data visualization and reporting.', link: 'https://docs.google.com/spreadsheets/d/1kmlehcirtcYF9ccvEIgNAtAwtq-hSpDV/edit?usp=sharing&ouid=104440254920293330833&rtpof=true&sd=true' }, { title: 'Excel Dashboard Project #2', description: 'Business data analysis dashboard developed using Microsoft Excel.', link: 'https://docs.google.com/spreadsheets/d/1qxLqkjmRmNE9KbhpdAhR9lvVCuWbDvwy/edit?usp=sharing&ouid=104440254920293330833&rtpof=true&sd=true' }, { title: 'Google Colab Dashboard', description: 'Google Colab was used for data analysis and dashboard development.', link: 'https://drive.google.com/drive/folders/1C3_OoONUmeKr0tvwxX4Ts4o2jy14uAj2?usp=sharing' }]
   },
   {
     id: 7, title: 'Store Administration System', category: 'Data Management', group: 'Analysis', year: 'Selected work', role: 'Store Admin / Data Management',
-    // TODO: ganti dengan screenshot asli project ini
-    image: projectThumbnail('Store Administration System', '#5B6472'),
+    image: 'public/images/WhatsApp Image 2026-07-23 at 06.58.04.jpeg',
     description: 'Developed an integrated Excel system for retail operations, including dynamic employee scheduling, automated payroll calculations, and inventory tracking.', problem: 'Manual, disconnected processes for shifts, wages, and product records caused errors and slow end-of-month reporting.', solution: 'Created a centralized Excel data system with advanced formulas, organized product records, automatic payroll calculation, and Pivot Table dashboards.', results: 'Eliminated manual calculation errors, accelerated monthly payroll processing, and gave the store owner rapid, data-driven reports.', technologies: ['Microsoft Excel', 'Formulas & Automation', 'Pivot Tables', 'Reporting'], link: 'https://drive.google.com/drive/folders/1k7rAonmKl8vRQHBLEXI5d2XnR0NjZjD7?usp=sharing'
   }
 ];
